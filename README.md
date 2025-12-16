@@ -55,13 +55,4 @@ A premium, responsive personal portfolio website designed to showcase skills, pr
 2.  **Open locally**:
     Simply open the `index.html` file in your preferred web browser.
 
-## 📝 Configuration
 
--   **Contact Form**: The form is set up with Formspree. To activate it for your email, update the `action` URL in `index.html`:
-    ```html
-    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-    ```
-
-## 📄 License
-
-This project is open-source and available for personal use and modification.
