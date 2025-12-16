@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Showcase</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/variables.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/layout.css">
+    <link rel="stylesheet" href="styles/components.css">
+</head>
+
+<body>
+
+    <!-- Hero Section -->
+    <header class="hero section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Nandu Koneti</h1>
+                <p class="hero-description fade-in-delay">Full Stack Developer & Creative Artist. Building digital
+                    experiences that matter.</p>
+                <div class="hero-actions fade-in-delay-2">
+                    <a href="#projects" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="profile-card-container fade-in-delay">
+                <div class="profile-card">
+                    <div class="profile-image-container">
+                        <img src="assets/MY_PFP_ORG.jpg" alt="John Doe" class="profile-image">
+                    </div>
+                    <div class="profile-name">Nandu Koneti</div>
+                    <div class="profile-role">Creative Developer</div>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">
+                        Passionate about building scalable web apps and creating stunning digital art.
+                    </p>
+                    <div style="display: flex; gap: 10px; justify-content: center;">
+                        <span class="pill">Code</span>
+                        <span class="pill">Design</span>
+                        <span class="pill">Art</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Certifications</h2>
+            <div class="grid-cols-2">
+                <!-- Tech Skills -->
+                <div class="skills-category card">
+                    <h3>Technical Skills</h3>
+                    <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                        <li>
+                            <h4>UI/UX Designing</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Ability to conduct User Research
+                                and design Prototype using wireframing through Figma and Adobe XD.</p>
+                        </li>
+                        <li>
+                            <h4>Database Management</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Proficient in MySQL and SQL for
+                                designing, optimizing, and maintaining efficient, scalable databases.</p>
+                        </li>
+                        <li>
+                            <h4>Version Control</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Proficient in Git and GitHub for
+                                effective collaboration, version management, and smooth deployment.</p>
+                        </li>
+                        <li>
+                            <h4>Programming Language</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Experienced in Java, implement
+                                efficient database interactions, and enhance user experiences through dynamic web
+                                development.</p>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Certifications -->
+                <div class="skills-category card">
+                    <h3>Certifications & Experience</h3>
+                    <ul style="display: flex; flex-direction: column; gap: 1rem;">
+                        <li>
+                            <h4>Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Oracle</p>
+                        </li>
+                        <li>
+                            <h4>30 Days of Google Cloud</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Google</p>
+                        </li>
+                        <li>
+                            <h4>Machine Learning</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Coursera</p>
+                        </li>
+                        <li>
+                            <h4>Figma UI/UX Designing Essentials</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">Udemy</p>
+                        </li>
+                        <li>
+                            <h4>UI/UX Developer Internship</h4>
+                            <p style="font-size: 0.9rem; color: var(--text-secondary);">MYC Company</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="grid-cols-2">
+                <!-- Project 1 -->
+                <article class="card">
+                    <img src="assets/malaria-detection.jpg" alt="Malaria Parasite Detection" class="project-image">
+                    <h3>Malaria Parasite Detection</h3>
+                    <p style="color: var(--text-secondary); margin: 0.5rem 0 1rem 0;">
+                        A web application for detecting malaria parasites in blood smear images using CNNs (MM-ResNet).
+                        Built with a responsive frontend and integrated deep learning models.
+                    </p>
+                    <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span class="pill">HTML/CSS/JS</span>
+                        <span class="pill">CNN</span>
+                        <span class="pill">Spring</span>
+                        <span class="pill">Git</span>
+                    </div>
+                    <a href="https://github.com/Nandukoneti/malaria_parasite_detection_using_blood_smears"
+                        target="_blank" style="color: var(--accent-primary); font-weight: 600;">View Project &rarr;</a>
+                </article>
+                <!-- Project 2 -->
+                <article class="card">
+                    <img src="assets/portfolio.png" alt="Personal Portfolio Website" class="project-image">
+                    <h3>Personal Portfolio Website</h3>
+                    <p style="color: var(--text-secondary); margin: 0.5rem 0 1rem 0;">
+                        Designed and developed a personal portfolio describing my skills and works. Features animations
+                        and a dynamic responsive layout.
+                    </p>
+                    <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span class="pill">HTML</span>
+                        <span class="pill">CSS</span>
+                        <span class="pill">JavaScript</span>
+                        <span class="pill">jQuery</span>
+                    </div>
+                    <a href="https://nandu-koneti.onrender.com" target="_blank"
+                        style="color: var(--accent-primary); font-weight: 600;">View Project &rarr;</a>
+                </article>
+                <!-- Project 3 -->
+                <article class="card">
+                    <img src="assets/smart-parking.png" alt="Smart Parking App Interface" class="project-image">
+                    <h3>Smart Parking System (Android)</h3>
+                    <p style="color: var(--text-secondary); margin: 0.5rem 0 1rem 0;">
+                        Mobile app to locate and secure parking spots in real-time. Leverages live data to reduce
+                        commute time and parking stress.
+                    </p>
+                    <div style="margin-bottom: 1rem; display: flex; flex-wrap: wrap; gap: 0.5rem;">
+                        <span class="pill">Android</span>
+                        <span class="pill">Kotlin</span>
+                        <span class="pill">Real-time Data</span>
+                    </div>
+                    <a href="https://github.com/Nandukoneti/smart-parking/tree/master" target="_blank"
+                        style="color: var(--accent-primary); font-weight: 600;">View Project &rarr;</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies & Arts Section -->
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2 class="section-title">Arts & Hobbies</h2>
+            <p style="text-align: center; color: var(--text-secondary); margin-bottom: 2rem;">A glimpse into my creative
+                world outside of coding.</p>
+            <div class="grid-cols-3">
+                <!-- Hobby 1 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-1.jpg" alt="Charminar Night View" style="border-radius: var(--radius-md);">
+                </div>
+                <!-- Hobby 2 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-2.jpg" alt="Charminar Day View" style="border-radius: var(--radius-md);">
+                </div>
+                <!-- Hobby 3 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-3.jpg" alt="Wildlife Photography" style="border-radius: var(--radius-md);">
+                </div>
+                <!-- Hobby 4 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-4.jpg" alt="Mecca Masjid" style="border-radius: var(--radius-md);">
+                </div>
+                <!-- Hobby 5 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-5.jpg" alt="Art Sketch" style="border-radius: var(--radius-md);">
+                </div>
+                <!-- Hobby 6 -->
+                <div class="masonry-item">
+                    <img src="assets/hobby-6.jpg" alt="Sketch Art 2" style="border-radius: var(--radius-md);">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container" style="max-width: 600px;">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="card">
+                <form action="https://formspree.io/f/xzznqlek" method="POST">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" placeholder="your@email.com"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" placeholder="Your message here..."
+                            required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                    <p style="text-align: center; margin-top: 1rem; font-size: 0.8rem; color: var(--text-secondary);">
+
+                    </p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section" style="border-top: 1px solid rgba(255,255,255,0.05); text-align: center; padding: 2rem 0;">
+        <p style="color: var(--text-secondary);">© 2025 Nandu Koneti. Built with ❤️.</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
