@@ -3,7 +3,7 @@
 A premium, responsive personal portfolio website designed to showcase skills, projects, and creative works. Built with modern HTML5, CSS3, and JavaScript, featuring a dark theme, glassmorphism elements, and smooth animations.
 
 ## 🚀 Live Demo
-[View Live Project](https://nandu-koneti.onrender.com) (Replace with your actual live link if different)
+View Live Project](https://nandu-koneti.onrender.com
 
 ## ✨ Features
 
@@ -41,10 +41,8 @@ A premium, responsive personal portfolio website designed to showcase skills, pr
 └── README.md        # Project documentation
 ```
 
-## 📸 Screenshots
 
-![Desktop Hero](assets/hero-bg.png) 
-*(Note: Replace with actual screenshots from the `brain` directory if you move them to `assets`)*
+
 
 ## 🚀 Setup & Usage
 
